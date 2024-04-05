@@ -1,0 +1,44 @@
+:root {
+  --red: hsl(0, 93%, 64%);
+  --black: hsl(240, 14%, 11%);
+  --white: hsl(0, 0%, 100%);
+  --text-black: hsl(0, 0%, 0%);
+}
+.btn {
+  width: 177px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  transition: all ease-in-out 200ms;
+}
+
+.btnPrimary {
+  background: var(--red);
+  color: var(--white);
+}
+
+.btnSecondary {
+  background: var(--black);
+  color: var(--white);
+}
+
+.btnLink {
+  height: auto;
+  width: auto;
+  background: transparent;
+  color: var(--red);
+  text-decoration: underline;
+}
+.btnPrimary:hover {
+  background: #ff9393;
+}
+
+.btnSecondary:hover {
+  background: #434356;
+}
+
+.btnLink:hover {
+  color: #ff9393;
+}

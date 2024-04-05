@@ -1,0 +1,92 @@
+.strategyContainer {
+  position: relative;
+  display: flex;
+  background: var(--black);
+  color: var(--white);
+}
+.strategyText {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4.4rem;
+  padding: 0 15rem;
+}
+.strategyHeading {
+  font-size: 5.6rem;
+  line-height: 64px;
+}
+.strategyHeading > span {
+  color: var(--red);
+}
+.strategyPara {
+  font-size: 1.8rem;
+  line-height: 32px;
+}
+
+.strategyBgPattern {
+  position: absolute;
+  transform: translate(-50%, -30%);
+  top: 30%;
+  left: 50%;
+}
+@media (max-width: 1360px) {
+  .strategyText {
+    padding: 0;
+  }
+  .strategyText {
+    padding: 0 12rem;
+  }
+  .strategyContainer > picture {
+    width: 50%;
+  }
+  .strategyText {
+    width: 50%;
+  }
+  .strategyImage {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 820px) {
+  .strategyText {
+    padding: 0 8rem;
+  }
+}
+@media (max-width: 768px) {
+  .strategyHeading {
+    font-size: 3.2rem;
+    line-height: 40px;
+  }
+  .strategyText {
+    padding: 0 4rem 0 6rem;
+  }
+  .strategyImage {
+    width: auto;
+    height: auto;
+  }
+  .strategyBgPattern {
+    width: 6.3rem;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  .strategyContainer {
+    flex-direction: column;
+  }
+  .strategyContainer > picture {
+    width: 100%;
+  }
+  .strategyImage {
+    width: 100%;
+    height: auto;
+  }
+  .strategyText {
+    width: 100%;
+    padding: 7.2rem 2.4rem;
+  }
+  .strategyBgPattern {
+    left: 14%;
+  }
+}

@@ -1,3 +1,5 @@
+import styles from "../components/css/approach.module.css";
+
 function Approach() {
   const approach = [
     {
@@ -23,20 +25,24 @@ function Approach() {
     },
   ];
   return (
-    <div className="approach-container">
-      <h1 className="approach-heading commissioner extrabold">
+    <div className={styles.approachContainer}>
+      <h1 className={`${styles.approachHeading} commissioner extrabold`}>
         Our approach for creating a winning brand
       </h1>
-      <div className="step-container">
+      <div className={styles.approachStepContainer}>
         {approach.map((approach) => (
-          <div key={approach.id} className="step">
-            <span className="step-count commissioner extrabold">
+          <div key={approach.id} className={styles.approachSteps}>
+            <span
+              className={`${styles.approachStepCount} commissioner extrabold`}
+            >
               {approach.count}
             </span>
-            <h1 className="step-heading commissioner extrabold">
+            <h1
+              className={`${styles.approachStepHeading} commissioner extrabold`}
+            >
               {approach.approach_heading}
             </h1>
-            <p className="step-para commissioner regular">
+            <p className={`${styles.approachStepPara} commissioner regular`}>
               {approach.approach_para}
             </p>
           </div>
