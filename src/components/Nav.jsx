@@ -3,7 +3,7 @@ import Button from "./ui/Button";
 
 function Nav() {
   return (
-    <div className="nav-wrapper commissioner-regular">
+    <div className="nav-wrapper commissioner regular">
       <img src={logo} alt="Creative brand logo" />
       <nav className="nav-items-wrapper">
         <ul className="nav-item-container">

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <img src={bgPatterRed} alt="" className="footer-bg-pattern" />
-      <h1 className="footer-heading commissioner-extrabold">
+      <h1 className="footer-heading commissioner extrabold">
         Let&apos;s build something
         <br /> great together.
       </h1>
