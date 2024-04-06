@@ -1,9 +1,9 @@
 import bgPatterRed from "../assets/desktop/bg-pattern-wave-red.svg";
 import imageStrategic from "../assets/desktop/image-strategic.jpg";
-import imageStrategicTablet from "../assets/tablet/image-strategic-tablet.jpg";
 import imageStrategicMobile from "../assets/mobile/image-strategic-mobile.jpg";
-import Button from "./ui/Button";
+import imageStrategicTablet from "../assets/tablet/image-strategic-tablet.jpg";
 import styles from "../components/css/strategy.module.css";
+import Button from "./ui/Button";
 
 function Strategy() {
   return (

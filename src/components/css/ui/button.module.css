@@ -42,3 +42,8 @@
 .btnLink:hover {
   color: #ff9393;
 }
+@media (max-width: 500px) {
+  .btnSecondary {
+    background: var(--red);
+  }
+}

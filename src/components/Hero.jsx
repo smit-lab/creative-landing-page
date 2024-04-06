@@ -1,8 +1,8 @@
 import heroImage from "../assets/desktop/image-hero.jpg";
-import heroImageTablet from "../assets/tablet/image-hero-tablet.jpg";
 import heroImageMobile from "../assets/mobile/image-hero-mobile.jpg";
-import Button from "./ui/Button";
+import heroImageTablet from "../assets/tablet/image-hero-tablet.jpg";
 import styles from "../components/css/hero.module.css";
+import Button from "./ui/Button";
 
 function Hero() {
   return (

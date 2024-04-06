@@ -3,6 +3,7 @@
   justify-content: end;
   width: 100%;
   position: relative;
+  height: auto;
 }
 
 .buttonContainer {
@@ -46,6 +47,7 @@
 
 .imageWrapper {
   position: relative;
+  height: auto;
 }
 
 .imageText {

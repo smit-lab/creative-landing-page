@@ -1,6 +1,6 @@
 import bgPatterRed from "../assets/desktop/bg-pattern-wave-red.svg";
-import Button from "./ui/Button";
 import styles from "../components/css/footer.module.css";
+import Button from "./ui/Button";
 
 function Footer() {
   return (

@@ -32,6 +32,10 @@
   font-weight: 600;
 }
 
+.navWrapper > button {
+  display: none;
+}
+
 @media (max-width: 1360px) {
   .navWrapper {
     height: 16rem;
@@ -47,10 +51,46 @@
   }
 }
 @media (max-width: 500px) {
-  .navItemsWrapper {
-    display: none;
-  }
   .navWrapper {
     height: 12rem;
+    padding: 0 2.4rem;
+    position: relative;
+  }
+  .navItemsWrapper {
+    background: var(--black);
+    flex-direction: column;
+    position: absolute;
+    height: auto;
+    padding: 3.2rem 0;
+    top: 100%;
+    right: 2.4rem;
+    gap: 3.4rem;
+    transition: opacity ease-in-out 150ms;
+  }
+  .navItemsOpened {
+    opacity: 1;
+  }
+  .navItemsClosed {
+    opacity: 0;
+  }
+  .navWrapper > img {
+    padding: 0;
+  }
+  .navWrapper > button {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 999px;
+    outline: none;
+    border: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navItemContainer {
+    flex-direction: column;
+    gap: 3.4rem;
   }
 }

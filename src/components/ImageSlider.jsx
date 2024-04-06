@@ -1,22 +1,19 @@
-import styles from "../components/css/imageSlider.module.css";
 import { useState } from "react";
+import styles from "../components/css/imageSlider.module.css";
+import slide1 from "../assets/desktop/image-slide-1.jpg";
+import slide2 from "../assets/desktop/image-slide-2.jpg";
+import slide3 from "../assets/desktop/image-slide-3.jpg";
+import slideTablet1 from "../assets/tablet/image-slide-1-tablet.jpg";
+import slideTablet2 from "../assets/tablet/image-slide-2-tablet.jpg";
+import slideTablet3 from "../assets/tablet/image-slide-3-tablet.jpg";
+import slideMobile1 from "../assets/mobile/image-slide-1-mobile.jpg";
+import slideMobile2 from "../assets/mobile/image-slide-2-mobile.jpg";
+import slideMobile3 from "../assets/mobile/image-slide-3-mobile.jpg";
 
 function ImageSlider() {
-  const images = [
-    "/src/assets/desktop/image-slide-1.jpg",
-    "/src/assets/desktop/image-slide-2.jpg",
-    "/src/assets/desktop/image-slide-3.jpg",
-  ];
-  const imagesTablet = [
-    "/src/assets/tablet/image-slide-1-tablet.jpg",
-    "/src/assets/tablet/image-slide-2-tablet.jpg",
-    "/src/assets/tablet/image-slide-3-tablet.jpg",
-  ];
-  const imagesMobile = [
-    "/src/assets/mobile/image-slide-1-mobile.jpg",
-    "/src/assets/mobile/image-slide-2-mobile.jpg",
-    "/src/assets/mobile/image-slide-3-mobile.jpg",
-  ];
+  const images = [slide1, slide2, slide3];
+  const imagesTablet = [slideTablet1, slideTablet2, slideTablet3];
+  const imagesMobile = [slideMobile1, slideMobile2, slideMobile3];
 
   const textHeadings = [
     "Brand naming & guildelines",
