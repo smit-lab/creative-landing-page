@@ -20,27 +20,3 @@
 .regular {
   font-weight: 400;
 }
-
-.h1-lineheight {
-  line-height: 1.1;
-}
-
-.p-lineheight {
-  line-height: 1.77;
-}
-
-.slider-arrow-btn {
-  background: none;
-  text-decoration: none;
-  outline: none;
-  border: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 9999px;
-  cursor: pointer;
-}
-
-.slider-arrow-btn:hover > svg > g {
-  stroke: #ff9393;
-  transition: stroke ease-in-out 200ms;
-}

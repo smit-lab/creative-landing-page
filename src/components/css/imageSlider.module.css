@@ -1,0 +1,139 @@
+.imageSliderContainer {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  position: relative;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.sliderTextContainer {
+  width: 73.5rem;
+  height: auto;
+  background: var(--black);
+  padding: 15.2rem;
+  color: var(--white);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.sliderTextContainer > h1 {
+  font-size: 5.4rem;
+  line-height: 64px;
+}
+.sliderArrowBtn {
+  background: none;
+  text-decoration: none;
+  outline: none;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.sliderArrowBtn:hover > svg > g {
+  stroke: #ff9393;
+  transition: stroke ease-in-out 200ms;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageText {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: linear-gradient(to bottom, #00000000, #000000 100%);
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* gap: 2rem; */
+  padding: 6.8rem 15.4rem 6.8rem 0;
+}
+
+.imageText > h2 {
+  font-size: 2rem;
+  line-height: 32px;
+}
+.imageText > p {
+  font-size: 1.8rem;
+  line-height: 32px;
+}
+@media (max-width: 1360px) {
+  .sliderTextContainer {
+    width: 70rem;
+  }
+}
+@media (max-width: 1280px) {
+  .sliderTextContainer {
+    width: 68rem;
+  }
+}
+@media (max-width: 1250px) {
+  .sliderTextContainer {
+    width: 64rem;
+    padding: 14rem;
+  }
+}
+@media (max-width: 1230px) {
+  .sliderTextContainer {
+    width: 62rem;
+    padding: 12rem;
+  }
+}
+@media (max-width: 1000px) {
+  .sliderTextContainer {
+    width: 39rem;
+    padding: 10rem 4rem;
+  }
+  .sliderTextContainer > h1 {
+    font-size: 3.2rem;
+    line-height: 40px;
+  }
+  .imageText {
+    padding: 4.5rem 4rem 4.5rem 0;
+    gap: 0.3rem;
+  }
+  .imageText > h2 {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+  .imageText > p {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .imageSliderContainer {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .sliderTextContainer {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 6.4rem 2.4rem;
+  }
+  .imageSliderImage {
+    width: 100%;
+    height: auto;
+  }
+  .imageContainer {
+    display: inherit;
+    width: 100%;
+    height: fit-content;
+  }
+  .imageText {
+    padding: 3.6rem 3.2rem 3.6rem 0;
+  }
+}

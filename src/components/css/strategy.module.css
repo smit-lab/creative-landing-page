@@ -53,6 +53,10 @@
   .strategyText {
     padding: 0 8rem;
   }
+  .strategyBgPattern {
+    width: 6.3rem;
+    height: auto;
+  }
 }
 @media (max-width: 768px) {
   .strategyHeading {
@@ -64,10 +68,6 @@
   }
   .strategyImage {
     width: auto;
-    height: auto;
-  }
-  .strategyBgPattern {
-    width: 6.3rem;
     height: auto;
   }
 }
