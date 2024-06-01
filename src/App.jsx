@@ -8,14 +8,14 @@ import Strategy from "./components/Strategy";
 
 function App() {
   return (
-    <>
+    <div>
       <Nav />
       <Hero />
       <Strategy />
       <Approach />
       <ImageSlider />
       <Footer />
-    </>
+    </div>
   );
 }
 
